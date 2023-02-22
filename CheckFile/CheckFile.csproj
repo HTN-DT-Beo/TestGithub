@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{232819B0-3B0C-4D57-929C-7C772AF2F89D}</ProjectGuid>
+    <ProjectGuid>{942BB449-2130-4FE9-BB82-892E6EC70154}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp3</RootNamespace>
-    <AssemblyName>ConsoleApp3</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>CheckFile</RootNamespace>
+    <AssemblyName>CheckFile</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -43,23 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DoiTuong.cs" />
-    <Compile Include="DuongThang.cs" />
-    <Compile Include="HinhChuNhat.cs" />
-    <Compile Include="HinhHoc.cs" />
-    <Compile Include="HinhTron.cs" />
-    <Compile Include="HinhVuong.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanHe.cs" />
-    <Compile Include="TamGiac.cs" />
-    <Compile Include="ToaDo.cs" />
-    <Compile Include="DaGiac.cs" />
-    <Compile Include="TuGiacDacBiet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Class_Diagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
