@@ -15,7 +15,7 @@ namespace Test_Project
         public Form1()
         {
             InitializeComponent();
-            Console.WriteLine("dasda");
+            Console.WriteLine("HAHAHAHAHA");
         }
     }
 }
