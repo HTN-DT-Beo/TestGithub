@@ -72,7 +72,7 @@ namespace WindowsFormsApp1
 
             if ((string.IsNullOrEmpty(tenTextBox.Text)) || (string.IsNullOrEmpty(mssvTextBox.Text)))
             {
-                MessageBox.Show("Please enter your student ID");
+                MessageBox.Show("Please enter your ID");
             }
             else
             {
